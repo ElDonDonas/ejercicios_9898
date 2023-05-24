@@ -47,3 +47,18 @@ print(cliente001["Correo"])
 print(cliente001.get("Celular"))
 cliente001["Nombre"] = "Juan"
 print(cliente001.get("Nombre"))
+
+cliente001.popitem()
+print(cliente001)
+cliente001.pop("Celular")
+print(cliente001)
+
+del cliente001["Cedula"]
+print(cliente001)
+
+cliente002 = dict(cliente001)
+print(cliente001)
+print(cliente001)
+
+#creacion de diccionarios anidados
+
